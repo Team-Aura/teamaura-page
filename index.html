@@ -31,15 +31,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/menu.css">
 
 </head>
 <body>
-    <div id="particles-js"></div>
-    <div id="logo">
-      <img src="./assets/images/logo.png" alt="logo">
-      <p>Homemade Projects</p>
-    </div>
-    <script src="./js/particles.min.js"></script>
-    <script src="./js/app.js"></script>
+  <div class="menu">
+    <input id="menu_toggle" type="checkbox" />
+    <label class="menu_btn" for="menu_toggle">
+      <span></span>
+    </label>
+    <ul class="menu_box">
+      <li><a class="menu_item" href="/">Inicio</a></li>
+      <li><a class="menu_item" href="#">Sobre Nosotros</a></li>
+      <li><a class="menu_item" href="https://github.com/Team-Aura">GitHub</a></li>
+      <li><a class="menu_item" href="mailto:info@teamaura.dev">Contacto</a></li>
+    </ul>
+  </div>
+  <div id="particles-js"></div>
+  <div id="logo">
+    <img src="./assets/images/logo.png" alt="logo">
+    <p>Homemade Projects</p>
+  </div>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
