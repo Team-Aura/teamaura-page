@@ -85,3 +85,11 @@
  #form-header{
      margin-bottom: 20px;
  }
+
+ .list {
+     padding: 5%;
+ }
+
+#form-content p {
+     margin: 10px 0;
+ }
